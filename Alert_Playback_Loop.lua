@@ -11,7 +11,7 @@ looper = 1
 			cmd ('go timer 4')
 			current_cue = active_cue
 		else
-			gma.feedback('We wait.')
+			gma.feedback('Plugin Loop Running.')
 			gma.sleep(0.25)
 			active_cue = get_var('SELECTEDEXECCUE')
 		end
